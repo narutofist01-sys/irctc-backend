@@ -39,3 +39,4 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 - `GET /api/stations/search?q={query}` - 8,500+ Indian railway stations autocomplete
 - `GET /api/search?from={SRC}&to={DST}&date={DD-MM-YYYY}&quota=GN&split_stations=false` - Train search with smart ranking and optional split-station discovery
 - `GET /api/trains/{train_no}/schedule` - Live train schedule and platform halts
+
